@@ -4,8 +4,16 @@
 
 
 // Constructor
+Book::Book() 
+{
+
+}
+
 Book::Book(const std::string& title, const std::string& author, const std::string& isbn)
-	:title(title), author(author), ISBN(isbn), Isavailability(true){ }
+	:title(title), author(author), ISBN(isbn), Isavailability(true)
+{
+
+}
 
 // Member functions
 

@@ -13,7 +13,7 @@ private:
 
 public:
 	// Constructor
-
+	Book();
 	Book(const std::string& title, const std::string& author, const std::string& isbn);
 	
 	// Members
