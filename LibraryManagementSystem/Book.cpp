@@ -19,8 +19,15 @@ Book::Book(const std::string& title, const std::string& author, const std::strin
 
 void Book::add()
 {
-
+	std::cout << "Hello"
 }
+void Book::update()
+{
+}
+void Book::del()
+{
+}
+
 void Book::displayDetails() const
 {
 	std::cout << "Title " << title
@@ -40,4 +47,8 @@ void Book::burrowBook()
 	{
 		std::cout << "Book is not available.\n";
 	}
+}
+
+void Book::returnBook()
+{
 }
