@@ -19,7 +19,7 @@ Book::Book(const std::string& title, const std::string& author, const std::strin
 
 void Book::add()
 {
-	std::cout << "Hello"
+	std::cout << "Hello";
 }
 void Book::update()
 {
